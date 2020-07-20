@@ -1,0 +1,21 @@
+.Bdr{
+    border:1px solid #1a1a1a;
+    width: 100%;
+}
+.Heading{
+    background: #1a1a1a;
+    padding:15px;
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.dataRow{
+    padding:10px;
+}
+
+@media (min-width:1024px){
+    .Bdr{
+        width: 500px;
+    }
+}

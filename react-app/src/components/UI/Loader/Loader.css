@@ -1,0 +1,40 @@
+.Loader{
+    z-index: 101;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-size:150px;
+}
+.Spinner{
+    position:relative;
+     -webkit-animation: rotateit 1.3s linear infinite;
+     -moz-animation: rotateit 1.3s linear infinite;
+     animation: rotateit 1.3s linear infinite;
+}
+@-webkit-keyframes rotateit {
+    from {
+         -webkit-transform: rotate(360deg);
+    }
+    to {
+         -webkit-transform: rotate(0deg);
+    }
+}
+@-moz-keyframes rotateit {
+    from {
+         -moz-transform: rotate(360deg);
+    }
+    to {
+         -moz-transform: rotate(0deg);
+    }
+}
+@keyframes rotateit {
+    from {
+         transform: rotate(360deg);
+    }
+    to {
+         transform: rotate(0deg);
+    }
+}
